@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de usuarios</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <form action="">
+          <div class="form-row">
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              autocomplete="additional-name"
+            />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" autocomplete="email" />
+          </div>
+
+          <div class="form-row">
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade" />
+          </div>
+
+          <button type="button" id="salvar">Salvar</button>
+        </form>
+      </div>
+
+      <h1>Resultado:</h1>
+      <section class="resul">
+        <p>Teste</p>
+      </section>
+    </main>
+
+    <footer>
+      <a href="https://github.com/RaulMartinsantos" target="_blank">
+        <p>Raul Santos &copy;</p>
+      </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
